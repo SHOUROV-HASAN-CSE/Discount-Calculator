@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center text-5xl font-semibold mt-8 text-green-500">
+        Discount Calculator
+      </h1>
+      <h2 class="text-center mb-8 text-gray-400">
+        Design And Developed By SHOUROV HASAN
+      </h2>
+    </header>
+    <main>
+      <section class="bg-lime-500 w-6/12 mx-auto text-center p-8 rounded-lg">
+        <h3 class="text-4xl mb-6 text-white">
+          Discount Price<br /><span id="price">00</span>
+        </h3>
+        <div>
+          <div class="grid grid-cols-2">
+            <input
+              class="mx-auto block w-5/6 mb-6 rounded text-center"
+              type="email"
+              placeholder="Please Provide Discount Amount"
+              id="input"
+            />
+            <input
+              class="mx-auto block w-16 mb-6 rounded text-center"
+              type="email"
+              placeholder="%"
+              id="discount"
+            />
+          </div>
+          <button
+            id="discount-btn"
+            class="text-xl py-2 px-5 bg-red-500 text-white rounded-lg"
+          >
+            Discount Price
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- javaScript Linkup -->
+    <script src="js/discount.js"></script>
+  </body>
+</html>
